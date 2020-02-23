@@ -17,6 +17,8 @@ def draw_text(text,fill_color,windows_font):
     draw.text((x-300,30),text,fill_color,font)
 
     im.save('Tianchi1.jpg')
+    print(x,y)
 
 draw_text(number,color,windows_font)
+
 
